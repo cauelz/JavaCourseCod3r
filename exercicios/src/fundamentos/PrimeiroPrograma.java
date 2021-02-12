@@ -1,4 +1,9 @@
 package fundamentos;
+/***
+ * 
+ * @author Cauê Lasagno Zaratin <caue.lasagno.zaratin@gmail.com>
+ * @since 1.0
+ */
 
 public class PrimeiroPrograma {
 
