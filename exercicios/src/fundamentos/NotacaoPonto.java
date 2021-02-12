@@ -6,6 +6,7 @@ public class NotacaoPonto {
 		
 		double a = 2.3;
 		String s = "Bom dia X"; // não é tipo primitivo nem palavra reservada
+		System.out.println(a);
 		
 		// alguns métodos...
 		
