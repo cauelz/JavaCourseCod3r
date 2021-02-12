@@ -20,7 +20,7 @@ public class Console {
 		
 		// Utilizando o Scanner
 		
-		int a = 3;
+		
 		Scanner entrada = new Scanner(System.in);
 		
 		System.out.print("Digite o seu nome: ");
