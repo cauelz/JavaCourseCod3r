@@ -16,6 +16,12 @@ public class Data {
 		this.dia = dia;
 		this.mes = mes;
 		this.ano = ano;
+		
+		/* Valores Padrão dos tipos primitivos
+		 * float, double -> 0.0
+		 * boolean -> false
+		 * char -> '\u0000'
+		 * */
 	}
 	
 	String obterDataFormatada() {
