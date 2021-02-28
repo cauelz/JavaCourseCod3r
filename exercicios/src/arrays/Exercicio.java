@@ -7,8 +7,8 @@ public class Exercicio {
 	public static void main(String[] args) {
 		
 		double[] notasAlunoA = new double[3];
-		double notasAlunoB[] = new double[3];
-		double []notasAlunoC = new double[3];
+//		double notasAlunoB[] = new double[3];
+//		double []notasAlunoC = new double[3];
 		System.out.println(Arrays.toString(notasAlunoA));
 		
 		notasAlunoA[0] = 8.9;
@@ -26,7 +26,7 @@ public class Exercicio {
 		
 		System.out.println(media);
 		
-		double[] notasAlunoD = {1, 6, 7, 8, 3}; // outra forma de declarar um array, não confundir com Javascript.
+		//double[] notasAlunoD = {1, 6, 7, 8, 3}; // outra forma de declarar um array, não confundir com Javascript.
 		
 	}
 }
