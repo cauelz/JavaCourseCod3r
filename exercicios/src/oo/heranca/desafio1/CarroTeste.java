@@ -15,7 +15,7 @@ public class CarroTeste {
 		
 		System.out.println();
 		System.out.println("velocidades da Ferrari");
-		Ferrari ferrari = new Ferrari();
+		Ferrari ferrari = new Ferrari(400);
 		ferrari.acelerar();
 		System.out.println(ferrari.toString());
 		ferrari.acelerar();
