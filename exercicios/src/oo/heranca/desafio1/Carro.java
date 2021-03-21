@@ -1,4 +1,4 @@
-package oo.heranca.desafio;
+package oo.heranca.desafio1;
 
 public class Carro {
 
