@@ -2,11 +2,11 @@ package oo.heranca.desafio1;
 
 public class Ferrari extends Carro {
 
-	Ferrari() {
+	public Ferrari() {
 		this(315);
 	}
 	
-	Ferrari(int velocidadeMaxima) {
+	public Ferrari(int velocidadeMaxima) {
 		super(velocidadeMaxima);
 		delta = 15;
 	}
@@ -16,8 +16,10 @@ public class Ferrari extends Carro {
 //		velocidadeAtual += 15;
 //	}
 //	
+	
+	// quando sobrescrevemos um metodos, nós nao podemos diminuir o nível de visibilidade padrão.
 	@Override
-	void frear() {
+	public void frear() {
 		velocidadeAtual -= 15;
 	}
 }
